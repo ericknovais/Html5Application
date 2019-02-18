@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <script>
+        //Espreção regulares
+        //1° maneira de se declarar uma regexp 
+        var regexp1 = new RegExp("pre","i"); //modificador i no segundo parametro deixa de ser case sensitive 
+        var string1 = "Edu Pretel foi preferencialmente atendido na previa do filme";
+       // alert(regexp1.test(string1)); //sensitive case
+       // alert(regexp1.exec(string1)); // 1° primeira occorencia encontrada
+
+        //2° segunda meneira
+        var regexp2 = /imp/i;
+        var string2 = "O Rato roeu a roupa do rei de Roma";
+        alert(string2.match(/Ro/ig)); //sensitive case
+        var a = string2.match(/Ro/ig);//modificador g retorna todas ocorencias
+        alert(a.length);
+
+        alert(string2.replace(/r[a-z]/ig,'xy'));//Agrupadores =[a-z]Entre; Meta caracteres[aeiou]somente 
+    </script>
+</head>
+<body>
+    <div>Curso java Script</div>
+</body>
+</html>

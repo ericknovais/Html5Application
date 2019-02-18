@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <script>
+        //A palavra  reservada VAR é opcional, e ele que definirá o escopo da variavel se utilizada
+        //dentro de uma função
+
+         a = 9; // var fora de uma função não faz diferença, so serve para poder declarar uma variavel e 
+         b = 7; // não iniciar com valor.
+
+        function escopo() {
+            var a = 18; //dentro de uma função faz diferença por o var, pois dentro da função faz com que essa 
+            b = 14;//varivel não iria alterar o valor da variavel de fora.
+            alert(a + " " + b);
+        }
+        escopo();
+        console.log(a);
+        console.log(b);
+
+    </script>
+</head>
+<body>
+    <div>Curso java Script</div>
+</body>
+</html>

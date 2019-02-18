@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <script>
+        window.onload = function ()
+        {
+            this.document.getElementById('incremento').onclick = function () {
+                calcula(this.id);
+            }
+            this.document.getElementById('decremento').onclick = function () {
+                calcula(this.id);
+            }
+        }
+
+        function calcula(objeto) {
+
+            var result = parseInt(document.getElementById('resultado').value);
+
+            if (objeto == 'incremento') {
+                result++; //incrementação
+            }
+            else
+            {
+                result--; //decrementação
+            }
+            
+            document.getElementById('resultado').value = result;
+        }
+
+        //function menos() {
+        //    var result = parseInt(document.getElementById('resultado').value);
+        //    result--; //decrementação
+        //    document.getElementById('resultado').value = result;
+        //}
+
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" name="decremento" id="decremento" value="-"/>
+        <input type="text" name="resultado" id="resultado" value="0" size="2" />
+        <input type="button" name="incremento" id="incremento" value="+"  >
+    </form>
+</body>
+</html>

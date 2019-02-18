@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <script>
+        //1° maneira de se declarar uma regexp 
+        var regexp1 = new RegExp("imp","i"); //modificador i no segundo parametro deixa de ser case sensitive 
+        var string1 = "Impacata";
+        alert(regexp1.test(string1)); //sensitive case
+
+        //2° segunda meneira
+        var regexp2 = /Imp/;
+        var string2 = "Impacata";
+        alert(regexp2.test(string2)); //sensitive case
+
+
+    </script>
+</head>
+<body>
+    <div>Curso java Script</div>
+</body>
+</html>

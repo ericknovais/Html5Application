@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <script>
+
+        //var idade = 25;
+        var nome = new String('Impacta');
+        var sobrenome = new String('Tecnologia');
+        //document.write(typeof nome);
+        //document.write("</br>");
+        //document.write(nome instanceof Object);
+        //document.write("</br>");
+        //document.write(nome instanceof Boolean);
+        //document.write("</br>");
+        //document.write(nome instanceof Number);
+        //document.write("</br>");
+        //document.write(nome instanceof String);
+        //document.write("</br>");
+        //document.write(nome.valueOf());
+        //document.write("</br>");
+        document.write(nome.length);
+        document.write("</br>");
+        document.write(nome.indexOf("I")); // sensitive case
+        document.write("</br>");
+        document.write(nome.indexOf("c"));
+        document.write("</br>");
+        document.write(nome.indexOf("ac"));
+        document.write("</br>");
+        document.write(nome.indexOf("a"));
+        document.write("</br>");
+        document.write(nome.lastIndexOf("a"));
+
+        var js = "javaScript não é legal!";
+        var res = js.replace("não é", "é muito");
+        document.write("</br>");
+        document.write(res);
+
+        //alert(nome.concat(" ",sobrenome));
+        var tudo = nome.concat(" ", sobrenome);
+        var t = tudo.split("a");
+       // alert(t[1]);
+
+        // Metodos HTML para Strings
+        var g = "JavaScript";
+        //alert(g.anchor(js));
+        document.write("</br>");
+        document.write(g.link("https://www.impacta.com.br/"));
+
+        //alert('Eu não matei Joana D\'Arc');
+        alert("\tEu não gosto daquele\"politico\"\npois eu não votei nele" );
+    </script>
+</head>
+<body>
+
+</body>
+</html>

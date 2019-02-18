@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <style type="text/css">
+        /*table {
+            width: 50%;
+            border: 1px solid #000;
+        }*/
+    </style>
+
+    <script>
+
+        do {
+            var tab = prompt("Entre com um valor entre 1 e 10")
+        } while (tab < 1 || tab > 10);
+
+        document.write('<table>');
+        for (var linha = 1; linha <= 10; linha++) {
+            document.write('<tr>');
+                document.write('<td>');
+                    document.write(linha);
+                document.write('</td>');
+
+                document.write('<td>');
+                     document.write('*');
+                document.write('</td>');
+
+                document.write('<td>');
+                    document.write(tab);
+                document.write('</td>');
+
+                document.write('<td>');
+                     document.write('=');
+                document.write('</td>');
+
+                document.write('<td>');
+                    document.write(linha * tab);
+                document.write('</td>');
+
+            document.write('</tr>');
+        }
+        document.write('</table>');
+    </script>
+</head>
+<body>
+
+</body>
+</html>

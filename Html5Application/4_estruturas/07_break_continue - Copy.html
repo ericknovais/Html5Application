@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <style type="text/css">
+        table {
+            width: 50%;
+            border: 1px solid #000;
+        }
+    </style>
+
+    <script>
+        var parar = 3;//1 ate 49
+        var cont = 1;
+        while (cont <= 50) {
+            document.write(cont + ',');
+            if (parar == cont) {
+                break;
+            }
+            cont++;
+        }
+
+        document.write('<br/>');
+
+        var pular = 3;//1 ate 49
+        var cont = 1;
+        while (cont <= 50) {
+            
+            if (pular == cont) {
+                cont++;
+                continue;
+            }
+
+            document.write(cont + ',');
+            cont++;
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

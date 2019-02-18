@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <script>
+        function Potencia(num, pot) {
+            //parametrização
+            // var pot = 3;
+            //var num = 10;
+
+            var total = 1;
+            for (var i = 0; i < pot; i++) {
+                total = total * num;
+            }
+
+            return { 'calculo':total, 'base':num, 'expoente':pot };
+        }
+
+        var resultado = Potencia(2, 3) //+ Potencia(2, 2)
+        document.write(resultado);
+        document.write('</br>');
+        document.write(resultado['calculo']);
+        document.write('</br>');
+        document.write(resultado.calculo);
+        document.write('</br>');
+        document.write(resultado['base']);
+        document.write('</br>');
+        document.write(resultado['expoente']);
+        document.write('</br>');
+        
+    </script>
+</head>
+<body>
+    <div>Curso java Script</div>
+</body>
+</html>
