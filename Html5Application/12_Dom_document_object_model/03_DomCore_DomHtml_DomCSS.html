@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <script>
+        window.onload = function () {
+            this.document.getElementById('botao').onclick = function () {
+                //document.getElementById('titulo').innerHTML = "Impacta Cursos onLine!"
+                //alert(document.getElementById('titulo').innerHTML); // DOM HTML
+                //alert(document.getElementById('titulo').firstChild.nodeValue); // DOM CORE
+                //alert(document.getElementById('titulo').childNodes[0].nodeValue); // DOM CORE
+                
+
+                //document.getElementById('eu').src = "imagens/erick2.jpg"; // DOM HTM
+                //document.getElementById('eu').setAttribute("src","imagens/erick2.jpg"); // DOM CORE
+
+                //DOM CSS
+                //document.getElementById('titulo').style.color = '#FF0000';
+                //document.getElementById('titulo').style.border = '1px solid #000000';
+                document.getElementById('titulo').setAttribute("style", 'color:#FF0000; border:1px solid #0000FF');
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1 id="titulo">Titulo do Artigo</h1>
+    <p id="texto">Texto para formatação</p>
+    <img id="eu" src="imagens/erick.jpg" alt=""/>
+    <br />
+    <input type="button" name="botao" id="botao" value="Formatar!!!" />
+</body>
+</html>

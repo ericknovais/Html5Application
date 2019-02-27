@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <script>
+        //prototype
+        Date.prototype.diaSemana = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sabado'];
+        Date.prototype.hoje = function ()
+        {
+            return this.diaSemana[this.getDay()];
+        }
+        var agora = new Date();
+        //alert(agora.diaSemana[agora.getDay()]);
+        alert(agora.hoje());
+        
+    </script>
+</head>
+<body>
+
+</body>
+</html>

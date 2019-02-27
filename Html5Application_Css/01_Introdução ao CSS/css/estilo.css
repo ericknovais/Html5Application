@@ -1,0 +1,11 @@
+﻿@charset "UTF-8";
+@import url('estilo2.css');
+
+body{
+    background-color:khaki;
+}
+
+p{
+    text-transform:uppercase;
+    color:#ff0000;
+}

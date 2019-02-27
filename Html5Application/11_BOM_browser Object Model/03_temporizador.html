@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TODO supply a title</title>
+    <script>
+        window.onload = function () {
+            setTimeout(cor, 3000);
+            this.setInterval(horas, 1000);
+        }
+
+        function cor() {
+            document.getElementById('texto').style.backgroundColor='#FF0000';
+        }
+        function horas() {
+            var agora = new Date;
+            var relogio = agora.getHours() + ":" + agora.getMinutes() + ":" + agora.getSeconds();
+            document.getElementById("horas").innerHTML = relogio;
+        }
+    </script>
+</head>
+<body>
+    <p id="texto">Texto para teste de background</p>
+    <hr />
+    <div id="horas">00:00:00</div>
+</body>
+</html>
