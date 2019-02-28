@@ -1,0 +1,32 @@
+﻿@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 960px;
+    background: #181514;
+}
+
+.fundo {
+    width: 100%;
+    min-height: 900px;
+    height: auto;
+    background: url(../imagens/bg-fundo.png) center 0 no-repeat #110e0e;
+}
+
+header {
+    height: 100px;
+    background-color: rgba(18,15,14,0.8);
+}
+
+    header > li {
+        display: inline;
+    }
+
+        header > li a {
+            padding: 38px 17px 38px 17px;
+            font-family: Arial,sans-serif;
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+        }

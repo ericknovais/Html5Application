@@ -80,6 +80,11 @@
     <Content Include="02_Seletores e Heranças\Exemplo06_seletores_Link.html" />
     <Content Include="02_Seletores e Heranças\Exemplo08_seletores_child.html" />
     <Content Include="02_Seletores e Heranças\Exemplo07_seletores_checked.html" />
+    <Content Include="03_Posicionamento e alinhamento\Exemplo01_posicionamento.html" />
+    <Content Include="Mãos à Obra\css\estilo_lab1.css" />
+    <Content Include="Mãos à Obra\Exec01_SeletoresEHeranças.html" />
+    <Content Include="Mãos à Obra\imagens\bg-fundo.png" />
+    <Content Include="Mãos à Obra\imagens\bg-logo.png" />
     <Content Include="Padrao.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
