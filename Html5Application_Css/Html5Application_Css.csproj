@@ -80,7 +80,17 @@
     <Content Include="02_Seletores e Heranças\Exemplo06_seletores_Link.html" />
     <Content Include="02_Seletores e Heranças\Exemplo08_seletores_child.html" />
     <Content Include="02_Seletores e Heranças\Exemplo07_seletores_checked.html" />
+    <Content Include="03_Posicionamento e alinhamento\Exemplo04_posicionamento_Futuante.html" />
+    <Content Include="03_Posicionamento e alinhamento\Exemplo03_posicionamento_Fixo.html" />
+    <Content Include="03_Posicionamento e alinhamento\Exemplo02_posicionamento_Absoluto.html" />
     <Content Include="03_Posicionamento e alinhamento\Exemplo01_posicionamento.html" />
+    <Content Include="03_Posicionamento e alinhamento\imagens\115703.jpg" />
+    <Content Include="03_Posicionamento e alinhamento\imagens\Erick01.jpg" />
+    <Content Include="03_Posicionamento e alinhamento\imagens\Erick02.jpg" />
+    <Content Include="03_Posicionamento e alinhamento\imagens\Darksiders-game-death.jpg" />
+    <Content Include="03_Posicionamento e alinhamento\imagens\Erick03.jpg" />
+    <Content Include="03_Posicionamento e alinhamento\imagens\logo_facebook.png" />
+    <Content Include="03_Posicionamento e alinhamento\imagens\Twitter_logo.png" />
     <Content Include="Mãos à Obra\css\estilo_lab1.css" />
     <Content Include="Mãos à Obra\Exec01_SeletoresEHeranças.html" />
     <Content Include="Mãos à Obra\imagens\bg-fundo.png" />
