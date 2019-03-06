@@ -25,6 +25,9 @@ header {
     width: 250px;
     height: 85px;
     margin: 15px;
+    background-image: url('../imagens/css3-logo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 #button-menu-nav {
