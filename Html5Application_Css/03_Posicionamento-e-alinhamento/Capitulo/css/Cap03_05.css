@@ -1,0 +1,41 @@
+﻿@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(0,0,0);
+}
+
+header {
+    position: fixed;
+    font-family: Arial;
+    top:0;
+    height: 60px;
+    width: 100%;
+    background-color: #333;
+    color: rgb(255,255,255);
+    float: left;
+}
+
+div {
+    float: left;
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.busca {
+    position: relative;
+    width: 600px;
+    height: 20px;
+    float: left;
+    top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #888;
+}
+
+.container {
+    width: 700px;
+    height: 600px;
+}

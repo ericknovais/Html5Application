@@ -1,0 +1,47 @@
+﻿@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+main {
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+.bloco {
+    width: 250px;
+    height: 450px;
+    border: 1px solid #333;
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.8);
+    color: #e1e1e1;
+}
+
+    .bloco img {
+        height: 360px;
+        width: 250px;
+    }
+
+.descricao {
+    padding: 20px;
+    position: relative;
+    height: 200px;
+    background-color: rgba(0,0,0,0.8);
+    color: rgb(16,16,16) /*#161616*/;
+    transition-duration: 1s;
+}
+
+    .descricao:hover {
+        margin-top: -100px;
+        color: rgb(255,255,255);
+        background-color: rgba(0,0,0,0.7);
+        cursor: pointer;
+        transition-duration: 1s;
+    }

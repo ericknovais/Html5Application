@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CSS3 - Impacta</title>
+    <style>
+        header {
+            background: #99ccff;
+            width: 400px;
+            height: auto;
+            /*padding:10px; tera efeito em todos os cantos*/
+            /*padding-left:10px; tera efeito somente a esquerda*/
+            /*top right bottom left*/
+            padding: 10px 0 20px 10px;
+            /*padding:10px 20px ;*/ /*tera efeito simutanio com 10px em Cima, baixo é 20px simutanio em esquerda e direita.*/
+        }
+
+        section {
+            background: #ccc;
+            width: 500px;
+            height: 700px;
+            margin: 20px 40px;
+            padding: 30px;
+            float: left;
+        }
+
+        article {
+            width: 400px;
+            height: auto;
+            background-color: #fff;
+            padding: 10px;
+            float: left;
+        }
+
+            article img {
+                width: 150px;
+                float: left;
+                margin: 0 10px 10px 0;
+            }
+
+        .imagem {
+            clear: left;
+            float:right;
+        }
+
+        footer{
+            clear:left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Trabalhando com CSS3
+        <br />
+        Posicionando e Alinhando conteúdo
+    </header>
+
+    <section>
+        <article>
+
+            <p>Conteúdo do primeiro parágrafo</p>
+            <img src="imagens/115703.jpg" />
+            <p> Eles são maus de mais.</p>
+            <img class="imagem" src="imagens/Erick01.jpg" />
+            <p>Ele e lindo.</p>
+        </article>
+    </section>
+    <footer>
+        <p>Texto do rodapé</p>
+    </footer>
+</body>
+</html>
