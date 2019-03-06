@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CSS3 - Impacta</title>
+    <style>
+        section {
+            background: #ccc;
+            width: 800px;
+            height: auto;
+            margin: 20px 40px;
+            background-image: url('imagens/0141_PAL_Photo.png');
+            background-repeat: no-repeat;
+        }
+
+        div#cor-01 {
+            width: 200px;
+            height: 200px;
+            /*background-color: #99ccff;*/
+            /*background-color: lightsteelblue;*/
+            /*h=hue(tonalidade) | s= saturation(saturação) | l=ligthneess(iliminação) */
+            background-color: hsla(290,60%,70%, 0.6);
+        }
+
+        div#cor-02 {
+            width: 800px;
+            height: 200px;
+            /*background-color: #99ccff;*/
+            background-color: rgba(60%,40%,30%,0.5);
+        }
+
+        div#cor-03 {
+            width: 200px;
+            height: 200px;
+            /*background-color: #99ccff;*/
+            background-image: -webkit-linear-gradient(45deg, red, green, blue);
+        }
+
+        div#cor-04 {
+            width: 200px;
+            height: 200px;
+            /*background-color: #99ccff;*/
+            background-image: -webkit-radial-gradient(circle, red, green, blue);
+            border-radius: 50%;
+        }
+
+        section article p {
+            color: rgba(0,0,255,0.7);
+        }
+    </style>
+</head>
+<body>
+    <header>Trabalhando com CSS3</header>
+    <section>
+        <article>
+            <p>Conteúdo do primeiro parágrafo</p>
+            <div id="cor-01"></div>
+            <div id="cor-02"></div>
+            <div id="cor-03"></div>
+            <div id="cor-04"></div>
+        </article>
+    </section>
+    <footer>
+        <p>Texto do rodapé</p>
+    </footer>
+</body>
+</html>
