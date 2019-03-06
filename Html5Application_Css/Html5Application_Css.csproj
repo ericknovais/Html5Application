@@ -123,6 +123,20 @@
     <Content Include="Mãos à Obra\Exec01_SeletoresEHeranças.html" />
     <Content Include="Mãos à Obra\imagens\bg-fundo.png" />
     <Content Include="Mãos à Obra\imagens\bg-logo.png" />
+    <Content Include="Mãos à Obra\Projeto\css\desktop.css" />
+    <Content Include="Mãos à Obra\Projeto\css\smartphone.css" />
+    <Content Include="Mãos à Obra\Projeto\css\tablet.css" />
+    <Content Include="Mãos à Obra\Projeto\desktop.html" />
+    <Content Include="Mãos à Obra\Projeto\imagens\css3-logo.png" />
+    <Content Include="Mãos à Obra\Projeto\imagens\galaxy-s3.JPG" />
+    <Content Include="Mãos à Obra\Projeto\imagens\imac.JPG" />
+    <Content Include="Mãos à Obra\Projeto\imagens\ipad-retina.JPG" />
+    <Content Include="Mãos à Obra\Projeto\imagens\iphone5.JPG" />
+    <Content Include="Mãos à Obra\Projeto\imagens\ipod.JPG" />
+    <Content Include="Mãos à Obra\Projeto\imagens\lupa.png" />
+    <Content Include="Mãos à Obra\Projeto\imagens\macbook.JPG" />
+    <Content Include="Mãos à Obra\Projeto\smartphone.html" />
+    <Content Include="Mãos à Obra\Projeto\tablet.html" />
     <Content Include="Padrao.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -145,6 +159,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Mãos à Obra\Projeto\js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
