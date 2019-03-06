@@ -80,6 +80,7 @@
     <Content Include="02_Seletores-e-Heranças\Exemplo06_seletores_Link.html" />
     <Content Include="02_Seletores-e-Heranças\Exemplo08_seletores_child.html" />
     <Content Include="02_Seletores-e-Heranças\Exemplo07_seletores_checked.html" />
+    <Content Include="03_Posicionamento-e-alinhamento\Capitulo\Cap03_09.html" />
     <Content Include="03_Posicionamento-e-alinhamento\Capitulo\Cap03_01.html" />
     <Content Include="03_Posicionamento-e-alinhamento\Capitulo\Cap03_02.html" />
     <Content Include="03_Posicionamento-e-alinhamento\Capitulo\Cap03_03.html" />
@@ -96,6 +97,7 @@
     <Content Include="03_Posicionamento-e-alinhamento\Capitulo\css\Cap03_07.css" />
     <Content Include="03_Posicionamento-e-alinhamento\Capitulo\css\Cap03_06.css" />
     <Content Include="03_Posicionamento-e-alinhamento\Capitulo\css\Cap03_05.css" />
+    <Content Include="03_Posicionamento-e-alinhamento\Capitulo\css\Cap03_09.css" />
     <Content Include="03_Posicionamento-e-alinhamento\Capitulo\imagens\fundo.png" />
     <Content Include="03_Posicionamento-e-alinhamento\Capitulo\imagens\impacta-site-smartphone.jpg" />
     <Content Include="03_Posicionamento-e-alinhamento\Capitulo\imagens\iphone.png" />
