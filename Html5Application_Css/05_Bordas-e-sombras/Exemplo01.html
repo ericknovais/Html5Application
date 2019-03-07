@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CSS3 - Impacta</title>
+    <style>
+        section {
+            background: #ccc;
+            width: 900px;
+            height: auto;
+            margin: 20px 40px;
+            float: left;
+        }
+
+        div#border-01 {
+            width: 400px;
+            height: 400px;
+            background-color: #99ccff;
+            /*border: 3px dashed #ff0000;*/ /*Tracejado*/
+            /*border: 3px dotted #ff0000;*/ /*potinhado*/
+            border: 5px double #ff0000; /*dupla*/
+            border-left-color: green;
+            border-right-style: dashed;
+            border-bottom-width: 8px;
+            float: left;
+            margin: 0 10px;
+        }
+
+        div#shadow-01 {
+            width: 400px;
+            height: 400px;
+            float: left;
+            background-color: khaki;
+            /*x y blur cor*/
+            box-shadow: inset -4px -4px 1px #999;
+        }
+
+        section article p {
+            font: 18px Georgia;
+            text-shadow: 2px 2px 1px #fff;
+            border-image-repeat:
+        }
+    </style>
+</head>
+<body>
+    <header>Trabalhando com CSS3</header>
+    <section>
+        <article>
+            <p>Conteúdo do primeiro parágrafo</p>
+            <div id="border-01"></div>
+            <div id="shadow-01"></div>
+        </article>
+    </section>
+    <footer>
+        <p>Texto do rodapé</p>
+    </footer>
+</body>
+</html>

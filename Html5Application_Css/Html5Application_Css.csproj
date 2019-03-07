@@ -122,6 +122,7 @@
     <Content Include="04_Trabalhando-com-cores-backgrounds-e-gradientes\Exemplo02_coresGradientes.html" />
     <Content Include="04_Trabalhando-com-cores-backgrounds-e-gradientes\Exemplo01_background.html" />
     <Content Include="04_Trabalhando-com-cores-backgrounds-e-gradientes\imagens\0141_PAL_Photo.png" />
+    <Content Include="05_Bordas-e-sombras\Exemplo01.html" />
     <Content Include="Mãos à Obra\css\estilo_lab1.css" />
     <Content Include="Mãos à Obra\Exec01_SeletoresEHeranças.html" />
     <Content Include="Mãos à Obra\imagens\bg-fundo.png" />
