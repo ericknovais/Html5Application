@@ -1,0 +1,21 @@
+﻿@charset "UTF-8";
+
+@font-face {
+    font-family: 'coldcoffee';
+    src: url('../font/coldcoffee.ttf') format('truetype');
+}
+
+body {
+    background-color: #000;
+    background-image: url('../imagens/coffee-fundo.jpg');
+    background-size: 100%;
+}
+
+h1 {
+    font-family: coldcoffee;
+    font-size: 30px;
+    color: #ccb39f;
+    position: absolute;
+    left: 850px;
+    top: 30px;
+}

@@ -122,7 +122,16 @@
     <Content Include="04_Trabalhando-com-cores-backgrounds-e-gradientes\Exemplo02_coresGradientes.html" />
     <Content Include="04_Trabalhando-com-cores-backgrounds-e-gradientes\Exemplo01_background.html" />
     <Content Include="04_Trabalhando-com-cores-backgrounds-e-gradientes\imagens\0141_PAL_Photo.png" />
-    <Content Include="05_Bordas-e-sombras\Exemplo01.html" />
+    <Content Include="05_Bordas-e-sombras\Exemplo01_bordas-e-sombras.html" />
+    <Content Include="06_Fontes\Capitulo\Cap06_01.html" />
+    <Content Include="06_Fontes\Capitulo\Cap06_02.html" />
+    <Content Include="06_Fontes\Capitulo\Cap06_03.html" />
+    <Content Include="06_Fontes\Capitulo\css\Cap06_02.css" />
+    <Content Include="06_Fontes\Capitulo\css\Cap06_01.css" />
+    <Content Include="06_Fontes\Capitulo\css\Cap06_03.css" />
+    <Content Include="06_Fontes\Capitulo\imagens\coffee-fundo.jpg" />
+    <Content Include="06_Fontes\Exemplo01_fontes.html" />
+    <Content Include="06_Fontes\imagens\0110_PAL_Photo.png" />
     <Content Include="Mãos à Obra\css\estilo_lab1.css" />
     <Content Include="Mãos à Obra\Exec01_SeletoresEHeranças.html" />
     <Content Include="Mãos à Obra\imagens\bg-fundo.png" />
@@ -152,6 +161,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="06_Fontes\fonts\Even Badder Mofo.ttf" />
+    <Content Include="06_Fontes\fonts\astronbv.ttf" />
+    <Content Include="06_Fontes\Capitulo\font\coldcoffee.ttf" />
+    <Content Include="06_Fontes\Capitulo\font\Sports World-Regular.otf" />
+    <Content Include="06_Fontes\Capitulo\font\Sports World-Regular.ttf" />
+    <Content Include="06_Fontes\Capitulo\font\varsity_regular.ttf" />
     <None Include="packages.config" />
     <Content Include="PDF\Css3.pdf" />
     <None Include="Web.Debug.config">

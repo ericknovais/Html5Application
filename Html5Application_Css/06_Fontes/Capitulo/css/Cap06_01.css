@@ -1,0 +1,30 @@
+﻿@charset "UTF-8";
+
+@font-face {
+    font-family: 'calibri';
+    src: local('calibri');
+}
+
+@font-face {
+    font-family: 'Sports World-Regular';
+    src: url('../font/Sports World-Regular.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'Sports World-Regular';
+    font-family: 50px;
+    color: #597800;
+}
+
+body {
+    font-family: Calibri,sans-serif;
+}
+
+p {
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.negrito {
+    font-weight: bold;
+}

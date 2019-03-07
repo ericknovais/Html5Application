@@ -26,7 +26,10 @@ header {
     margin: 15px;
     background-image: url('../imagens/css3-logo.png');
     background-repeat: no-repeat;
-    background-size:100% 100%;
+    background-size: 100% 100%;
+    border: dashed 3px #000;
+    position: relative;
+    float: left;
 }
 
 #button-menu-nav {
@@ -36,8 +39,15 @@ header {
     margin-left: 20%;
 }
 
-#menu-nav ul, input[type='search'] {
+#menu-nav ul {
     display: none;
+}
+
+input[type='search'] {
+    background-color: #eee;
+    border: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
 }
 
 #button-lupa {
@@ -47,6 +57,9 @@ header {
     right: 20px;
     position: relative;
     float: right;
+    border: none;
+    background-image: url('../imagens/lupa.png');
+    background-size:100% 100%;
 }
 
 #banner-full {
@@ -56,6 +69,17 @@ header {
 
 .descricao {
     height: 150px;
+    background-color: #e0e0e0;
+    box-shadow: 10px 10px 10px #888;
+}
+
+#secoes {
+    border: solid 1px #e0e0e0;
+    border-radius:10px;
+}
+
+#para-voce{
+    border-radius:10px;
 }
 
 .descricao, #secoes, #para-voce, footer {
