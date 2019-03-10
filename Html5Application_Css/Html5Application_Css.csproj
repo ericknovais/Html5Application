@@ -144,6 +144,7 @@
     <Content Include="07_layout-Responsivo\imagens\Aguia.jpg" />
     <Content Include="07_layout-Responsivo\imagens\twitter.png" />
     <Content Include="07_layout-Responsivo\imagens\whatsapp.png" />
+    <Content Include="AtividadeSql\AC02-Biblioteca.sql" />
     <Content Include="AtividadeSql\AC02-Esfiharia.sql" />
     <Content Include="Mãos à Obra\css\estilo_lab1.css" />
     <Content Include="Mãos à Obra\Exec01_SeletoresEHeranças.html" />

@@ -2,7 +2,7 @@ CREATE DATABASE Esfiharia
 Use Esfiharia
 
 CREATE TABLE Clientes(
-ID_Cliente INT IDENTITY(1,1) NOT NULL
+ID_Cliente INT IDENTITY(1,1)
 ,Nome VARCHAR(80) NOT NULL
 ,Endereco VARCHAR(100)
 ,CONSTRAINT pkCliente PRIMARY KEY (ID_Cliente)
@@ -36,7 +36,7 @@ CREATE TABLE ItensPedidos(
 NumeroPedido INT NOT NULL
 ,ID_Produto  INT NOT NULL
 ,Qtde INT NOT NULL
-,CONSTRAINT fkNumeroPedidos_ItensPedodo FOREIGN KEY(NumeroPedido) REFERENCES Pedidos(Numero)
+,CONSTRAINT fkNumeroPedidos_ItensPedido FOREIGN KEY(NumeroPedido) REFERENCES Pedidos(Numero)
 ,CONSTRAINT fkProduto_ItensPedido FOREIGN KEY(ID_Produto) REFERENCES Produtos(ID_Produto) 
 )
 GO
