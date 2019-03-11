@@ -1,0 +1,7 @@
+.div1{
+	width: 500px;
+	transition-property:background-color;
+	transition-duration:2s;
+	transition-timing-function:linear;
+	transition-delay:2s;
+}

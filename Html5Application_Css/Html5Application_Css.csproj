@@ -123,6 +123,14 @@
     <Content Include="06_Fontes\Exemplo01_fontes.html" />
     <Content Include="07_layout-Responsivo\css\estilo.css" />
     <Content Include="07_layout-Responsivo\Exercicio01_Responsivo.html" />
+    <Content Include="08_Transições-em-Css3\Capitulo\ex1.css" />
+    <Content Include="08_Transições-em-Css3\Capitulo\ex1.html" />
+    <Content Include="08_Transições-em-Css3\Capitulo\ex2.css" />
+    <Content Include="08_Transições-em-Css3\Capitulo\ex3.css" />
+    <Content Include="08_Transições-em-Css3\Capitulo\ex4.css" />
+    <Content Include="08_Transições-em-Css3\Capitulo\ex5.css" />
+    <Content Include="08_Transições-em-Css3\Capitulo\ex6.css" />
+    <Content Include="08_Transições-em-Css3\Capitulo\img\car.png" />
     <Content Include="08_Transições-em-Css3\Exemplo01_trasições.html" />
     <Content Include="AtividadeSql\AC02-Biblioteca.sql" />
     <Content Include="AtividadeSql\AC02-Esfiharia.sql" />
@@ -172,6 +180,7 @@
     <Content Include="06_Fontes\Capitulo\font\Sports World-Regular.ttf" />
     <Content Include="06_Fontes\Capitulo\font\varsity_regular.ttf" />
     <Content Include="imagens\Thumbs.db" />
+    <Content Include="08_Transições-em-Css3\Capitulo\img\Thumbs.db" />
     <None Include="packages.config" />
     <Content Include="PDF\Css3.pdf" />
     <None Include="Web.Debug.config">

@@ -1,0 +1,9 @@
+.div1{
+	transition-property:background-color; /* Transição na cor de fundo */
+}
+.div2{
+	transition-property:all; /* Transição em todas as propriedades que dão suporte a propriedade transition*/
+}
+.div3{
+	transition-property:margin-right, text-shadow, color; /* Transição na margem direita, texto com sombreamento e na cor */
+}

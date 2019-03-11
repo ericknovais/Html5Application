@@ -1,0 +1,10 @@
+.div1{
+	transition-property:margin-left;
+	transition-duration:1s; /* O valor deve ser inserido em segundos */
+}
+.div2{
+	transition-property:margin-left, color; /* É possivel definir mais de um elemento 
+											para realizar a transição */
+	transition-duration:1s, 3s; /* é possivel definir um tempo para cada 
+							    elemento definido na propriedade transition-property */
+}

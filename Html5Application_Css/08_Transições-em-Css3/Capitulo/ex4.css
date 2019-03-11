@@ -1,0 +1,7 @@
+.div1{
+	transition-timing-function:ease;
+	transition-timing-function:linear;
+	transition-timing-function:ease-in;
+	transition-timing-function:ease-out;
+	transition-timing-function:ease-in-out;
+}
