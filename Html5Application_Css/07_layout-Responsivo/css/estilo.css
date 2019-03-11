@@ -39,13 +39,13 @@ div#grupo-01 {
 }
 
     div#grupo-01 div#img-01 {
-        background-image: url('../imagens/0073_PAL_Photo.png');
+        background-image: url('../../imagens/0073_PAL_Photo.png');
         background-size: 100% 100%;
     }
 
 
     div#grupo-01 div#img-02 {
-        background-image: url('../imagens/0110_PAL_Photo.png');
+        background-image: url('../../imagens/0110_PAL_Photo.png');
         background-size: 100% 100%;
     }
 
