@@ -132,6 +132,8 @@
     <Content Include="08_Transições-em-Css3\Capitulo\ex6.css" />
     <Content Include="08_Transições-em-Css3\Capitulo\img\car.png" />
     <Content Include="08_Transições-em-Css3\Exemplo01_trasições.html" />
+    <Content Include="09_Desenhando-com-Css3\Exemplo02_equilibrio.html" />
+    <Content Include="09_Desenhando-com-Css3\Exemplo01_formas_geometricas.html" />
     <Content Include="AtividadeSql\AC02-Biblioteca.sql" />
     <Content Include="AtividadeSql\AC02-Esfiharia.sql" />
     <Content Include="imagens\0066_PAL_Photo.png" />
@@ -191,6 +193,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="10_Parallax\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="Mãos à Obra\Projeto\js\" />
