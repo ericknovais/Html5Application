@@ -138,6 +138,7 @@
     <Content Include="10_Parallax\Exemplo01_parallax.html" />
     <Content Include="10_Parallax\img\floresta.jpg" />
     <Content Include="10_Parallax\img\universo.jpg" />
+    <Content Include="11_Animações\Exemplo01_animacoes.html" />
     <Content Include="AtividadeSql\AC02-Biblioteca.sql" />
     <Content Include="AtividadeSql\AC02-Esfiharia.sql" />
     <Content Include="imagens\0066_PAL_Photo.png" />
@@ -187,6 +188,7 @@
     <Content Include="06_Fontes\Capitulo\font\varsity_regular.ttf" />
     <Content Include="imagens\Thumbs.db" />
     <Content Include="08_Transições-em-Css3\Capitulo\img\Thumbs.db" />
+    <Content Include="Mãos à Obra\Gabarito_CSS3.pdf" />
     <None Include="packages.config" />
     <Content Include="PDF\Css3.pdf" />
     <None Include="Web.Debug.config">
