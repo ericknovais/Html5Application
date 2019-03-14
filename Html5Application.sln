@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html5Application_JavaScript
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html5Application_Css", "Html5Application_Css\Html5Application_Css.csproj", "{0CB90E7B-F1DD-4785-A0D1-7CA93B8AC5BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html5Application.EstudosDevMidia", "Html5Application.EstudosDevMidia\Html5Application.EstudosDevMidia.csproj", "{4E012E38-D904-4133-8003-421E1129FD05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0CB90E7B-F1DD-4785-A0D1-7CA93B8AC5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CB90E7B-F1DD-4785-A0D1-7CA93B8AC5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CB90E7B-F1DD-4785-A0D1-7CA93B8AC5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E012E38-D904-4133-8003-421E1129FD05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E012E38-D904-4133-8003-421E1129FD05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E012E38-D904-4133-8003-421E1129FD05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E012E38-D904-4133-8003-421E1129FD05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
